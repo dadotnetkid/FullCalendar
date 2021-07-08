@@ -1,6 +1,6 @@
 
 <h3>For VB.net </h3>
-<span>
+```
  @Html.Calendar(Function(CalendarSettings As CalendarSetting)
                         CalendarSettings.Properties.DisabledDates = list
                         CalendarSettings.Properties.DefaultDate = DateTime.Now
@@ -17,4 +17,4 @@
                         Next
                         Return CalendarSettings
                     End Function)
- </span>
+```
