@@ -1,5 +1,3 @@
-
-<h3>For VB.net </h3>
 ```
  @Html.Calendar(Function(CalendarSettings As CalendarSetting)
                         CalendarSettings.Properties.DisabledDates = list
